@@ -44,29 +44,91 @@
 
 ## 🎯 Learning Goals
 
-| Goal | What You'll Achieve |
-|------|---------------------|
-| **Strong Fundamentals** | Variables, data types, operators, control flow — rock solid |
-| **Memory Management** | Understand stack, heap, malloc, calloc, free — no leaks |
-| **Problem Solving** | Build logic-first thinking with real coding challenges |
-| **System-Level Understanding** | Pointers, file I/O, process memory — how it all connects |
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/01-Strong%20Fundamentals-00599C?style=for-the-badge&logo=c&logoColor=white"/><br/><br/>
+Variables, data types, operators, control flow — rock solid
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/02-Memory%20Management-A42E2B?style=for-the-badge&logo=gnu&logoColor=white"/><br/><br/>
+Stack, heap, malloc, calloc, free — zero leaks
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/03-Problem%20Solving-10b981?style=for-the-badge&logoColor=white"/><br/><br/>
+Logic-first thinking with real coding challenges
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/04-System%20Level-6366f1?style=for-the-badge&logoColor=white"/><br/><br/>
+Pointers, file I/O, process memory — how it all connects
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
 ## 📚 Complete Roadmap
 
-| # | Module | Topics | Status |
-|---|--------|--------|--------|
-| 01 | **Basics** | Variables, Data Types, I/O, Operators | 🟢 Start Here |
-| 02 | **Control Flow** | if/else, switch, ternary | 🟢 Core Logic |
-| 03 | **Loops** | for, while, do-while, break, continue | 🟢 Iteration |
-| 04 | **Functions** | Declaration, definition, scope, recursion | 🟡 Modular Code |
-| 05 | **Arrays & Strings** | 1D/2D arrays, string functions, manipulation | 🟡 Data Handling |
-| 06 | **Pointers** | Address, dereferencing, pointer arithmetic, double pointers | 🔴 Critical |
-| 07 | **Structures** | struct, union, typedef, nested structs | 🟡 Custom Types |
-| 08 | **File Handling** | fopen, fread, fwrite, fclose, modes | 🟡 Persistence |
-| 09 | **Memory Allocation** | malloc, calloc, realloc, free, memory leaks | 🔴 Advanced |
-| 10 | **Data Structures in C** | Linked List, Stack, Queue, Trees | 🔴 Mastery |
+<div align="center">
+
+<table>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/01-Basics-10b981?style=flat-square"/></td>
+<td><b>Variables, Data Types, I/O, Operators</b></td>
+<td align="center">🟢 Start Here</td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/02-Control%20Flow-10b981?style=flat-square"/></td>
+<td><b>if/else, switch, ternary</b></td>
+<td align="center">🟢 Core Logic</td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/03-Loops-10b981?style=flat-square"/></td>
+<td><b>for, while, do-while, break, continue</b></td>
+<td align="center">🟢 Iteration</td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/04-Functions-f59e0b?style=flat-square"/></td>
+<td><b>Declaration, definition, scope, recursion</b></td>
+<td align="center">🟡 Modular Code</td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/05-Arrays%20%26%20Strings-f59e0b?style=flat-square"/></td>
+<td><b>1D/2D arrays, string functions, manipulation</b></td>
+<td align="center">🟡 Data Handling</td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/06-Pointers-ef4444?style=flat-square"/></td>
+<td><b>Address, dereferencing, pointer arithmetic, double pointers</b></td>
+<td align="center">🔴 Critical</td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/07-Structures-f59e0b?style=flat-square"/></td>
+<td><b>struct, union, typedef, nested structs</b></td>
+<td align="center">🟡 Custom Types</td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/08-File%20Handling-f59e0b?style=flat-square"/></td>
+<td><b>fopen, fread, fwrite, fclose, modes</b></td>
+<td align="center">🟡 Persistence</td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/09-Memory%20Allocation-ef4444?style=flat-square"/></td>
+<td><b>malloc, calloc, realloc, free, memory leaks</b></td>
+<td align="center">🔴 Advanced</td>
+</tr>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/10-Data%20Structures-ef4444?style=flat-square"/></td>
+<td><b>Linked List, Stack, Queue, Trees</b></td>
+<td align="center">🔴 Mastery</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
@@ -76,43 +138,11 @@
 buildInC/
 ├── assets/
 │   └── C.png
-├── src/
-│   ├── basics/
-│   │   ├── hello_world.c
-│   │   ├── variables.c
-│   │   └── operators.c
-│   ├── control-flow/
-│   │   ├── if_else.c
-│   │   └── switch_case.c
-│   ├── loops/
-│   │   ├── for_loop.c
-│   │   ├── while_loop.c
-│   │   └── patterns.c
-│   ├── functions/
-│   │   ├── basics.c
-│   │   └── recursion.c
-│   ├── arrays/
-│   │   ├── 1d_array.c
-│   │   └── 2d_array.c
-│   ├── strings/
-│   │   ├── string_basics.c
-│   │   └── string_functions.c
-│   ├── pointers/
-│   │   ├── pointer_basics.c
-│   │   ├── pointer_arithmetic.c
-│   │   └── double_pointer.c
-│   ├── structures/
-│   │   ├── struct_basics.c
-│   │   └── union.c
-│   ├── file-handling/
-│   │   ├── read_file.c
-│   │   └── write_file.c
-│   └── data-structures/
-│       ├── linked_list.c
-│       ├── stack.c
-│       └── queue.c
+├── LICENSE
 └── README.md
 ```
+
+> 📁 Source folders will be added progressively as each module is completed — following the roadmap above.
 
 ---
 
@@ -151,18 +181,42 @@ buildInC/
 
 ## 🧠 Code + Logic Approach
 
-Every concept in this repository follows a structured learning pattern:
+<div align="center">
 
-```
-📖 Concept Explanation  →  🧠 Logic Breakdown  →  💻 Code Implementation  →  ⚠️ Edge Cases  →  ✅ Best Practices
-```
+Every concept follows a strict 5-step learning pattern — no shortcuts.
 
-| Layer | What It Means |
-|-------|---------------|
-| **Logic Explanation** | Understand *why* before *how* — mental model first |
-| **Code Implementation** | Clean, minimal, readable C code with inline comments |
-| **Edge Cases** | What breaks the code? Null pointers, overflow, empty input |
-| **Best Practices** | Memory safety, naming conventions, avoiding undefined behavior |
+<br/>
+
+<img src="https://img.shields.io/badge/Step%201-📖%20Concept%20Explanation-6366f1?style=for-the-badge"/>
+&nbsp;→&nbsp;
+<img src="https://img.shields.io/badge/Step%202-🧠%20Logic%20Breakdown-00599C?style=for-the-badge"/>
+&nbsp;→&nbsp;
+<img src="https://img.shields.io/badge/Step%203-💻%20Code%20Implementation-10b981?style=for-the-badge"/>
+&nbsp;→&nbsp;
+<img src="https://img.shields.io/badge/Step%204-⚠️%20Edge%20Cases-f59e0b?style=for-the-badge"/>
+&nbsp;→&nbsp;
+<img src="https://img.shields.io/badge/Step%205-✅%20Best%20Practices-ef4444?style=for-the-badge"/>
+
+<br/><br/>
+
+<table>
+<tr>
+<td align="center" width="20%"><b>📖 Concept</b></td>
+<td align="center" width="20%"><b>🧠 Logic</b></td>
+<td align="center" width="20%"><b>💻 Code</b></td>
+<td align="center" width="20%"><b>⚠️ Edge Cases</b></td>
+<td align="center" width="20%"><b>✅ Best Practices</b></td>
+</tr>
+<tr>
+<td align="center">Understand <i>what</i> it is and <i>why</i> it exists</td>
+<td align="center">Mental model — think before you type</td>
+<td align="center">Clean, minimal, well-commented C code</td>
+<td align="center">Null pointers, overflow, empty input</td>
+<td align="center">Memory safety, naming, undefined behavior</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
@@ -192,9 +246,6 @@ gcc program.c -o program
 
 # Compile with warnings (recommended)
 gcc -Wall -Wextra program.c -o program
-
-# Compile with debugging info
-gcc -g program.c -o program
 ```
 
 **Example — Hello World:**
@@ -218,83 +269,99 @@ gcc hello_world.c -o hello_world
 
 ## 📊 Progress Tracker
 
-Track your learning journey — check off each topic as you complete it:
+*Fork this repo and check off topics as you complete them.*
 
-**Fundamentals**
+</div>
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**📦 Fundamentals**
 - [ ] Hello World & Basic I/O
 - [ ] Variables & Data Types
 - [ ] Operators & Expressions
 - [ ] Type Casting
 
-**Control Flow**
+**🔀 Control Flow**
 - [ ] if / else if / else
 - [ ] switch / case
 - [ ] Ternary Operator
 
-**Loops**
+**🔁 Loops**
 - [ ] for loop
 - [ ] while loop
 - [ ] do-while loop
 - [ ] break & continue
 - [ ] Nested loops & patterns
 
-**Functions**
-- [ ] Function declaration & definition
+**🧩 Functions**
+- [ ] Declaration & definition
 - [ ] Pass by value
 - [ ] Recursion
 - [ ] Scope & lifetime
 
-**Arrays & Strings**
+**📐 Arrays & Strings**
 - [ ] 1D Arrays
 - [ ] 2D Arrays
 - [ ] String basics (char arrays)
-- [ ] String functions (`strlen`, `strcpy`, `strcmp`)
+- [ ] `strlen`, `strcpy`, `strcmp`
 
-**Pointers** 🔴
-- [ ] Pointer basics & address-of operator
+</td>
+<td valign="top" width="50%">
+
+**🔴 Pointers**
+- [ ] Basics & address-of operator
 - [ ] Dereferencing
 - [ ] Pointer arithmetic
 - [ ] Pointers & arrays
 - [ ] Double pointers
 - [ ] Pointers to functions
 
-**Memory Management** 🔴
+**🔴 Memory Management**
 - [ ] Stack vs Heap
 - [ ] `malloc` & `calloc`
 - [ ] `realloc`
-- [ ] `free` & avoiding memory leaks
+- [ ] `free` & avoiding leaks
 
-**Structures**
+**🏗️ Structures**
 - [ ] `struct` basics
 - [ ] Nested structures
-- [ ] `union`
-- [ ] `typedef`
+- [ ] `union` & `typedef`
 
-**File Handling**
+**📁 File Handling**
 - [ ] `fopen` / `fclose`
 - [ ] `fprintf` / `fscanf`
 - [ ] `fread` / `fwrite`
 - [ ] File modes (r, w, a, rb, wb)
 
-**Data Structures in C** 🔴
+**🔴 Data Structures in C**
 - [ ] Singly Linked List
 - [ ] Doubly Linked List
 - [ ] Stack (array & linked list)
 - [ ] Queue (array & linked list)
 - [ ] Binary Search Tree
 
+</td>
+</tr>
+</table>
+
 ---
 
 ## 🏆 Why This Repo is Different
 
-| Feature | This Repo |
-|---------|-----------|
+<div align="center">
+
+| ✅ Feature | 💡 What It Means |
+|-----------|-----------------|
 | **Logic-First** | Every concept starts with *why*, not just *how* |
 | **Clean Code** | Minimal, readable, well-commented C programs |
-| **Beginner Friendly** | No assumed knowledge — starts from absolute zero |
-| **Interview Focused** | Covers patterns and problems asked in top tech interviews |
+| **Beginner Friendly** | Zero assumed knowledge — starts from absolute scratch |
+| **Interview Focused** | Patterns & problems from real tech interviews |
 | **Edge Cases Covered** | Real-world pitfalls, not just happy-path examples |
-| **Structured Roadmap** | Clear progression from basics to advanced — no confusion |
+| **Structured Roadmap** | Clear progression — no confusion, no gaps |
+
+</div>
 
 ---
 
@@ -317,9 +384,41 @@ Contributions are welcome! If you want to add examples, fix bugs, or improve exp
 
 ---
 
+## 📞 Contact & Support
+
+<div align="center">
+
+> 💬 *Have questions, suggestions, or want to collaborate? Reach out!*
+
+<br/>
+
+**👤 Abhishek Giri** — Author & Maintainer
+
+<a href="https://linkedin.com/in/abhishek-giri04">
+  <img src="https://img.shields.io/badge/Connect%20on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://github.com/abhishekgiri04">
+  <img src="https://img.shields.io/badge/Follow%20on-GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+&nbsp;
+<a href="mailto:abhishekgiri.dev@gmail.com">
+  <img src="https://img.shields.io/badge/Send-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
 ## 📄 License
 
 This project is licensed under the **MIT License** — free to use, share, and modify.
+
+See the [LICENSE](LICENSE) file for full details.
+
+</div>
 
 ---
 
