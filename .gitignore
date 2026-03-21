@@ -1,0 +1,33 @@
+# Compiled binaries
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dylib
+
+# Compiled program outputs (no extension on Unix)
+# Ignore any compiled output in src/
+src/**/a.out
+src/**/*.out
+
+# Debugger files
+*.dSYM/
+*.su
+
+# IDE & editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

@@ -138,6 +138,7 @@ Pointers, file I/O, process memory — how it all connects
 buildInC/
 ├── assets/
 │   └── C.png
+├── .gitignore
 ├── LICENSE
 └── README.md
 ```
