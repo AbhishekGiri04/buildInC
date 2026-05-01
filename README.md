@@ -139,6 +139,7 @@ buildInC/
 ├── assets/
 │   └── C.png
 ├── .gitignore
+├── C_Handbook.pdf
 ├── LICENSE
 └── README.md
 ```
