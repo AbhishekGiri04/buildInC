@@ -138,13 +138,24 @@ Pointers, file I/O, process memory — how it all connects
 buildInC/
 ├── assets/
 │   └── C.png
+├── Chapter_1/               # Basics — Variables, Data Types, I/O, Operators
+├── Chapter_2/               # Control Flow — if/else, switch, ternary
+├── Chapter_3/               # Loops — for, while, do-while, break, continue
+├── Chapter_4/               # Functions — Declaration, scope, recursion
+├── Chapter_5/               # Arrays & Strings
+├── Chapter_6/               # Pointers — Address, arithmetic, double pointers
+├── Chapter_7/               # Structures — struct, union, typedef
+├── Chapter_8/               # File Handling — fopen, fread, fwrite
+├── Chapter_9/               # Memory Allocation — malloc, calloc, realloc, free
+├── Chapter_10/              # Data Structures — Linked List, Stack, Queue, Tree
+├── Chapter_11/              # Advanced — Mixed problems & interview prep
 ├── .gitignore
 ├── C_Handbook.pdf
 ├── LICENSE
 └── README.md
 ```
 
-> 📁 Source folders will be added progressively as each module is completed — following the roadmap above.
+> 📁 Each chapter folder will be populated with `.c` source files as the module is completed — following the roadmap above.
 
 ---
 
