@@ -1,33 +1,69 @@
-# Compiled binaries
+# ─────────────────────────────────────────
+#  C Programming — buildInC .gitignore
+# ─────────────────────────────────────────
+
+# Compiled object files
 *.o
+*.obj
+
+# Compiled executables (Unix / macOS)
 *.out
+a.out
+
+# Compiled executables (Windows)
 *.exe
+
+# Static & shared libraries
 *.a
+*.lib
 *.so
 *.dylib
 
-# Compiled program outputs (no extension on Unix)
-# Ignore any compiled output in src/
-src/**/a.out
-src/**/*.out
+# Chapter-level compiled outputs
+Chapter_*/*.o
+Chapter_*/*.out
+Chapter_*/*.exe
+Chapter_*/a.out
 
-# Debugger files
+# Debugger & profiler files
 *.dSYM/
 *.su
+*.idb
+*.pdb
+gmon.out
+
+# Valgrind output
+vgcore.*
+callgrind.out.*
+massif.out.*
 
 # IDE & editor files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.swn
 *~
+*.orig
 
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
 
 # Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
